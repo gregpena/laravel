@@ -19,7 +19,7 @@ class PagesController extends Controller
             'title'=>'Services',
             'services'=>['Web Building','custom programming','project management']
         );
-    	return view('pages.services')->with($data);//t
+    	return view('pages.services')->with($data);//test
     	
     }
 }
